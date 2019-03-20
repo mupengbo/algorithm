@@ -1,0 +1,1540 @@
+desc: --pages-as-heap=yes
+cmd: python3 bfs_dfs.py
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=135168
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=0
+mem_heap_B=5214208
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=30318
+mem_heap_B=5234688
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=33400
+mem_heap_B=5386240
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=36572
+mem_heap_B=5861376
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=40785
+mem_heap_B=5996544
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=41458
+mem_heap_B=6107136
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=45670
+mem_heap_B=6144000
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=50187
+mem_heap_B=6180864
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=55286
+mem_heap_B=6430720
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=59866
+mem_heap_B=8880128
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=64147
+mem_heap_B=8896512
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=65033
+mem_heap_B=12013568
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=69891
+mem_heap_B=13852672
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=70435
+mem_heap_B=15548416
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=122968
+mem_heap_B=15560704
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=348768
+mem_heap_B=15560704
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n3: 15560704 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 10346496 0x401A752: mmap (mmap64.c:52)
+  n1: 6328320 0x4006237: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 6328320 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 6307840 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 6307840 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 6307840 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 6307840 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 6307840 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 6307840 0x4002116: _dl_start (rtld.c:415)
+          n1: 6307840 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 6307840 0x0: ???
+            n1: 6307840 0x1FFF00035D: ???
+             n0: 6307840 0x1FFF000365: ???
+    n0: 20480 in 1 place, below massif's threshold (1.00%)
+  n1: 3633152 0x400638A: _dl_map_object_from_fd (dl-map-segments.h:94)
+   n2: 3633152 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 3616768 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 3616768 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 3616768 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 3616768 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 3616768 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 3616768 0x4002116: _dl_start (rtld.c:415)
+          n1: 3616768 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 3616768 0x0: ???
+            n1: 3616768 0x1FFF00035D: ???
+             n0: 3616768 0x1FFF000365: ???
+    n0: 16384 in 1 place, below massif's threshold (1.00%)
+  n1: 221184 0x4006B51: _dl_map_object_from_fd (dl-map-segments.h:141)
+   n1: 221184 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 221184 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 221184 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 221184 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 221184 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 221184 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 221184 0x4002116: _dl_start (rtld.c:415)
+          n1: 221184 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 221184 0x0: ???
+            n1: 221184 0x1FFF00035D: ???
+             n0: 221184 0x1FFF000365: ???
+  n0: 163840 in 2 places, all below massif's threshold (1.00%)
+ n0: 5214208 0xFFFFFFFFFFFFFFFF: ???
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=348768
+mem_heap_B=15556608
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=436494
+mem_heap_B=15560704
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=514326
+mem_heap_B=15564800
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=515961
+mem_heap_B=15593472
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=536424
+mem_heap_B=15597568
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=558979
+mem_heap_B=15601664
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=580632
+mem_heap_B=15605760
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=602483
+mem_heap_B=15609856
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=625211
+mem_heap_B=15613952
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=647361
+mem_heap_B=15618048
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n3: 15618048 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 10211328 0x401A752: mmap (mmap64.c:52)
+  n1: 6328320 0x4006237: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 6328320 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 6307840 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 6307840 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 6307840 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 6307840 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 6307840 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 6307840 0x4002116: _dl_start (rtld.c:415)
+          n1: 6307840 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 6307840 0x0: ???
+            n1: 6307840 0x1FFF00035D: ???
+             n0: 6307840 0x1FFF000365: ???
+    n0: 20480 in 1 place, below massif's threshold (1.00%)
+  n1: 3633152 0x400638A: _dl_map_object_from_fd (dl-map-segments.h:94)
+   n2: 3633152 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 3616768 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 3616768 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 3616768 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 3616768 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 3616768 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 3616768 0x4002116: _dl_start (rtld.c:415)
+          n1: 3616768 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 3616768 0x0: ???
+            n1: 3616768 0x1FFF00035D: ???
+             n0: 3616768 0x1FFF000365: ???
+    n0: 16384 in 1 place, below massif's threshold (1.00%)
+  n1: 221184 0x4006B51: _dl_map_object_from_fd (dl-map-segments.h:141)
+   n1: 221184 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 221184 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 221184 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 221184 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 221184 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 221184 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 221184 0x4002116: _dl_start (rtld.c:415)
+          n1: 221184 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 221184 0x0: ???
+            n1: 221184 0x1FFF00035D: ???
+             n0: 221184 0x1FFF000365: ???
+  n0: 28672 in 2 places, all below massif's threshold (1.00%)
+ n0: 5214208 0xFFFFFFFFFFFFFFFF: ???
+ n0: 192512 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=668455
+mem_heap_B=15622144
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=691041
+mem_heap_B=18210816
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=712123
+mem_heap_B=18214912
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=736529
+mem_heap_B=18219008
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=758490
+mem_heap_B=18558976
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1263446
+mem_heap_B=18821120
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=3671617
+mem_heap_B=19083264
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3676584
+mem_heap_B=19083264
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n4: 19083264 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 10211328 0x401A752: mmap (mmap64.c:52)
+  n1: 6328320 0x4006237: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 6328320 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 6307840 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 6307840 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 6307840 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 6307840 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 6307840 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 6307840 0x4002116: _dl_start (rtld.c:415)
+          n1: 6307840 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 6307840 0x0: ???
+            n1: 6307840 0x1FFF00035D: ???
+             n0: 6307840 0x1FFF000365: ???
+    n0: 20480 in 1 place, below massif's threshold (1.00%)
+  n1: 3633152 0x400638A: _dl_map_object_from_fd (dl-map-segments.h:94)
+   n2: 3633152 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 3616768 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 3616768 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 3616768 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 3616768 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 3616768 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 3616768 0x4002116: _dl_start (rtld.c:415)
+          n1: 3616768 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 3616768 0x0: ???
+            n1: 3616768 0x1FFF00035D: ???
+             n0: 3616768 0x1FFF000365: ???
+    n0: 16384 in 1 place, below massif's threshold (1.00%)
+  n1: 221184 0x4006B51: _dl_map_object_from_fd (dl-map-segments.h:141)
+   n1: 221184 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 221184 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 221184 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 221184 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 221184 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 221184 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 221184 0x4002116: _dl_start (rtld.c:415)
+          n1: 221184 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 221184 0x0: ???
+            n1: 221184 0x1FFF00035D: ???
+             n0: 221184 0x1FFF000365: ???
+  n0: 28672 in 2 places, all below massif's threshold (1.00%)
+ n0: 5214208 0xFFFFFFFFFFFFFFFF: ???
+ n3: 3522560 0x4D8B4E2: mmap (mmap64.c:52)
+  n1: 2969600 0x4CC560B: _nl_load_locale (loadlocale.c:225)
+   n1: 2969600 0x4CC5222: _nl_find_locale (findlocale.c:241)
+    n1: 2969600 0x4CC4659: setlocale (setlocale.c:340)
+     n1: 2969600 0x62FC09: _Py_SetLocaleFromEnv (in /usr/bin/python3.7)
+      n1: 2969600 0x5DD079: ??? (in /usr/bin/python3.7)
+       n1: 2969600 0x653837: ??? (in /usr/bin/python3.7)
+        n1: 2969600 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+         n0: 2969600 0x4CBB099: (below main) (libc-start.c:308)
+  n2: 524288 0x59EBDC: ??? (in /usr/bin/python3.7)
+   n1: 262144 0x523CFF: ??? (in /usr/bin/python3.7)
+    n1: 262144 0x59590F: PyTuple_New (in /usr/bin/python3.7)
+     n1: 262144 0x58BC45: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x647129: _Py_ReadyTypes (in /usr/bin/python3.7)
+       n1: 262144 0x632999: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+        n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+         n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+            n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n1: 262144 0x59FBFF: ??? (in /usr/bin/python3.7)
+    n1: 262144 0x5A152F: PyMem_Realloc (in /usr/bin/python3.7)
+     n1: 262144 0x5CD477: PyList_Append (in /usr/bin/python3.7)
+      n1: 262144 0x62BF36: _PySys_BeginInit (in /usr/bin/python3.7)
+       n1: 262144 0x6329D7: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+        n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+         n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+            n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+  n0: 28672 in 1 place, below massif's threshold (1.00%)
+ n0: 135168 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=3679826
+mem_heap_B=19083264
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3683669
+mem_heap_B=19079168
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3772508
+mem_heap_B=19083264
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=4984546
+mem_heap_B=19247104
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=6208333
+mem_heap_B=19509248
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=9462680
+mem_heap_B=19648512
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=9967060
+mem_heap_B=19910656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=9967504
+mem_heap_B=19910656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 19910656 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 10211328 0x401A752: mmap (mmap64.c:52)
+  n1: 6328320 0x4006237: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 6328320 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 6307840 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 6307840 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 6307840 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 6307840 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 6307840 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 6307840 0x4002116: _dl_start (rtld.c:415)
+          n1: 6307840 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 6307840 0x0: ???
+            n1: 6307840 0x1FFF00035D: ???
+             n0: 6307840 0x1FFF000365: ???
+    n0: 20480 in 1 place, below massif's threshold (1.00%)
+  n1: 3633152 0x400638A: _dl_map_object_from_fd (dl-map-segments.h:94)
+   n2: 3633152 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 3616768 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 3616768 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 3616768 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 3616768 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 3616768 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 3616768 0x4002116: _dl_start (rtld.c:415)
+          n1: 3616768 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 3616768 0x0: ???
+            n1: 3616768 0x1FFF00035D: ???
+             n0: 3616768 0x1FFF000365: ???
+    n0: 16384 in 1 place, below massif's threshold (1.00%)
+  n1: 221184 0x4006B51: _dl_map_object_from_fd (dl-map-segments.h:141)
+   n1: 221184 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 221184 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 221184 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 221184 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 221184 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 221184 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 221184 0x4002116: _dl_start (rtld.c:415)
+          n1: 221184 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 221184 0x0: ???
+            n1: 221184 0x1FFF00035D: ???
+             n0: 221184 0x1FFF000365: ???
+  n0: 28672 in 2 places, all below massif's threshold (1.00%)
+ n0: 5214208 0xFFFFFFFFFFFFFFFF: ???
+ n3: 4046848 0x4D8B4E2: mmap (mmap64.c:52)
+  n1: 2969600 0x4CC560B: _nl_load_locale (loadlocale.c:225)
+   n1: 2969600 0x4CC5222: _nl_find_locale (findlocale.c:241)
+    n1: 2969600 0x4CC4659: setlocale (setlocale.c:340)
+     n1: 2969600 0x62FC09: _Py_SetLocaleFromEnv (in /usr/bin/python3.7)
+      n1: 2969600 0x5DD079: ??? (in /usr/bin/python3.7)
+       n1: 2969600 0x653837: ??? (in /usr/bin/python3.7)
+        n1: 2969600 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+         n0: 2969600 0x4CBB099: (below main) (libc-start.c:308)
+  n3: 1048576 0x59EBDC: ??? (in /usr/bin/python3.7)
+   n2: 524288 0x523CFF: ??? (in /usr/bin/python3.7)
+    n1: 262144 0x54BA92: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+     n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+      n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+        n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+         n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+          n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+             n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+              n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+               n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                 n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                  n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                   n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                    n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                     n1: 262144 0x5D838B: ??? (in /usr/bin/python3.7)
+                      n1: 262144 0x5D89F4: PyObject_CallMethod (in /usr/bin/python3.7)
+                       n1: 262144 0x63281D: ??? (in /usr/bin/python3.7)
+                        n1: 262144 0x632B25: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+                         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+                          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+                            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+                             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+    n1: 262144 0x59590F: PyTuple_New (in /usr/bin/python3.7)
+     n1: 262144 0x58BC45: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x647129: _Py_ReadyTypes (in /usr/bin/python3.7)
+       n1: 262144 0x632999: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+        n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+         n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+            n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n1: 262144 0x596482: PyType_GenericAlloc (in /usr/bin/python3.7)
+    n1: 262144 0x4D5D55: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x58AA23: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x59A4ED: PyStructSequence_InitType2 (in /usr/bin/python3.7)
+       n1: 262144 0x62C277: _PySys_BeginInit (in /usr/bin/python3.7)
+        n1: 262144 0x6329D7: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n2: 262144 0x59FBFF: ??? (in /usr/bin/python3.7)
+    n1: 262144 0x57E578: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x5626A6: _PyUnicodeWriter_Finish (in /usr/bin/python3.7)
+      n1: 262144 0x580689: PyUnicode_FromFormatV (in /usr/bin/python3.7)
+       n1: 262144 0x5353EB: PyErr_Format (in /usr/bin/python3.7)
+        n1: 262144 0x5A7698: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x55691C: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D5201: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+           n1: 262144 0x5511C1: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+             n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+              n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+               n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                     n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                      n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                       n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                        n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                         n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                          n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                           n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                            n1: 262144 0x5D89B2: PyObject_CallMethod (in /usr/bin/python3.7)
+                             n1: 262144 0x630A1A: ??? (in /usr/bin/python3.7)
+                              n0: 262144 0x6321D1: _Py_InitializeMainInterpreter (in /usr/bin/python3.7)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 28672 in 1 place, below massif's threshold (1.00%)
+ n1: 438272 0x4D876C6: brk (brk.c:31)
+  n1: 438272 0x4D877A7: sbrk (sbrk.c:56)
+   n1: 438272 0x4D1D107: __default_morecore (morecore.c:47)
+    n1: 438272 0x4D19364: sysmalloc (malloc.c:2473)
+     n2: 438272 0x4D1A4D7: _int_malloc (malloc.c:4133)
+      n1: 303104 0x4D1B6A1: malloc (malloc.c:3049)
+       n1: 303104 0x5A0FD6: PyObject_Malloc (in /usr/bin/python3.7)
+        n1: 303104 0x5B2E6C: ??? (in /usr/bin/python3.7)
+         n1: 303104 0x5B9E5C: PyDict_SetDefault (in /usr/bin/python3.7)
+          n1: 303104 0x563458: PyUnicode_InternInPlace (in /usr/bin/python3.7)
+           n0: 303104 in 2 places, all below massif's threshold (1.00%)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=9969316
+mem_heap_B=19906560
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=10028950
+mem_heap_B=19910656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=10031174
+mem_heap_B=19906560
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=10085113
+mem_heap_B=19910656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=10087335
+mem_heap_B=19906560
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=10105262
+mem_heap_B=19910656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=18025331
+mem_heap_B=20070400
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=18189323
+mem_heap_B=20332544
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=18485643
+mem_heap_B=20332544
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 20332544 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 10211328 0x401A752: mmap (mmap64.c:52)
+  n1: 6328320 0x4006237: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 6328320 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 6307840 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 6307840 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 6307840 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 6307840 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 6307840 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 6307840 0x4002116: _dl_start (rtld.c:415)
+          n1: 6307840 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 6307840 0x0: ???
+            n1: 6307840 0x1FFF00035D: ???
+             n0: 6307840 0x1FFF000365: ???
+    n0: 20480 in 1 place, below massif's threshold (1.00%)
+  n1: 3633152 0x400638A: _dl_map_object_from_fd (dl-map-segments.h:94)
+   n2: 3633152 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 3616768 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 3616768 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 3616768 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 3616768 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 3616768 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 3616768 0x4002116: _dl_start (rtld.c:415)
+          n1: 3616768 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 3616768 0x0: ???
+            n1: 3616768 0x1FFF00035D: ???
+             n0: 3616768 0x1FFF000365: ???
+    n0: 16384 in 1 place, below massif's threshold (1.00%)
+  n1: 221184 0x4006B51: _dl_map_object_from_fd (dl-map-segments.h:141)
+   n1: 221184 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 221184 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 221184 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 221184 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 221184 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 221184 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 221184 0x4002116: _dl_start (rtld.c:415)
+          n1: 221184 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 221184 0x0: ???
+            n1: 221184 0x1FFF00035D: ???
+             n0: 221184 0x1FFF000365: ???
+  n0: 28672 in 2 places, all below massif's threshold (1.00%)
+ n0: 5214208 0xFFFFFFFFFFFFFFFF: ???
+ n3: 4308992 0x4D8B4E2: mmap (mmap64.c:52)
+  n1: 2969600 0x4CC560B: _nl_load_locale (loadlocale.c:225)
+   n1: 2969600 0x4CC5222: _nl_find_locale (findlocale.c:241)
+    n1: 2969600 0x4CC4659: setlocale (setlocale.c:340)
+     n1: 2969600 0x62FC09: _Py_SetLocaleFromEnv (in /usr/bin/python3.7)
+      n1: 2969600 0x5DD079: ??? (in /usr/bin/python3.7)
+       n1: 2969600 0x653837: ??? (in /usr/bin/python3.7)
+        n1: 2969600 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+         n0: 2969600 0x4CBB099: (below main) (libc-start.c:308)
+  n4: 1310720 0x59EBDC: ??? (in /usr/bin/python3.7)
+   n2: 786432 0x523CFF: ??? (in /usr/bin/python3.7)
+    n1: 524288 0x54BA92: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+     n2: 524288 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+      n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+        n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+         n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+          n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+             n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+              n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+               n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                 n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                  n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                   n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                    n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                     n1: 262144 0x5D838B: ??? (in /usr/bin/python3.7)
+                      n1: 262144 0x5D89F4: PyObject_CallMethod (in /usr/bin/python3.7)
+                       n1: 262144 0x63281D: ??? (in /usr/bin/python3.7)
+                        n1: 262144 0x632B25: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+                         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+                          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+                            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+                             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+         n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+          n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+             n1: 262144 0x5D89B2: PyObject_CallMethod (in /usr/bin/python3.7)
+              n1: 262144 0x630A1A: ??? (in /usr/bin/python3.7)
+               n1: 262144 0x6321D1: _Py_InitializeMainInterpreter (in /usr/bin/python3.7)
+                n1: 262144 0x5DD629: ??? (in /usr/bin/python3.7)
+                 n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+                  n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+                   n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+    n1: 262144 0x59590F: PyTuple_New (in /usr/bin/python3.7)
+     n1: 262144 0x58BC45: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x647129: _Py_ReadyTypes (in /usr/bin/python3.7)
+       n1: 262144 0x632999: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+        n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+         n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+            n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n1: 262144 0x57DC2D: ??? (in /usr/bin/python3.7)
+    n1: 262144 0x53102E: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x53154D: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+        n1: 262144 0x531F89: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x533BA6: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D50DF: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+           n1: 262144 0x549F3E: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+             n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+              n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+               n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                         n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                          n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                            n1: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+                             n1: 262144 0x54EF92: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                              n0: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+   n1: 262144 0x596482: PyType_GenericAlloc (in /usr/bin/python3.7)
+    n1: 262144 0x4D5D55: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x58AA23: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x59A4ED: PyStructSequence_InitType2 (in /usr/bin/python3.7)
+       n1: 262144 0x62C277: _PySys_BeginInit (in /usr/bin/python3.7)
+        n1: 262144 0x6329D7: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 28672 in 1 place, below massif's threshold (1.00%)
+ n1: 598016 0x4D876C6: brk (brk.c:31)
+  n1: 598016 0x4D877A7: sbrk (sbrk.c:56)
+   n1: 598016 0x4D1D107: __default_morecore (morecore.c:47)
+    n1: 598016 0x4D19364: sysmalloc (malloc.c:2473)
+     n2: 598016 0x4D1A4D7: _int_malloc (malloc.c:4133)
+      n2: 462848 0x4D1B6A1: malloc (malloc.c:3049)
+       n1: 303104 0x5A0FD6: PyObject_Malloc (in /usr/bin/python3.7)
+        n1: 303104 0x5B2E6C: ??? (in /usr/bin/python3.7)
+         n1: 303104 0x5B9E5C: PyDict_SetDefault (in /usr/bin/python3.7)
+          n1: 303104 0x563458: PyUnicode_InternInPlace (in /usr/bin/python3.7)
+           n0: 303104 in 2 places, all below massif's threshold (1.00%)
+       n0: 159744 in 1 place, below massif's threshold (1.00%)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=18485643
+mem_heap_B=20328448
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=21121909
+mem_heap_B=20451328
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=23776694
+mem_heap_B=20713472
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=26913447
+mem_heap_B=20852736
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=32624407
+mem_heap_B=21114880
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=39137459
+mem_heap_B=21377024
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=39569004
+mem_heap_B=21512192
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=39620056
+mem_heap_B=21512192
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=peak
+n5: 21512192 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 10211328 0x401A752: mmap (mmap64.c:52)
+  n1: 6328320 0x4006237: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 6328320 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 6307840 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 6307840 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 6307840 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 6307840 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 6307840 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 6307840 0x4002116: _dl_start (rtld.c:415)
+          n1: 6307840 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 6307840 0x0: ???
+            n1: 6307840 0x1FFF00035D: ???
+             n0: 6307840 0x1FFF000365: ???
+    n0: 20480 in 1 place, below massif's threshold (1.00%)
+  n1: 3633152 0x400638A: _dl_map_object_from_fd (dl-map-segments.h:94)
+   n2: 3633152 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 3616768 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 3616768 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 3616768 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 3616768 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 3616768 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 3616768 0x4002116: _dl_start (rtld.c:415)
+          n1: 3616768 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 3616768 0x0: ???
+            n1: 3616768 0x1FFF00035D: ???
+             n0: 3616768 0x1FFF000365: ???
+    n0: 16384 in 1 place, below massif's threshold (1.00%)
+  n1: 221184 0x4006B51: _dl_map_object_from_fd (dl-map-segments.h:141)
+   n1: 221184 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 221184 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 221184 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 221184 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 221184 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 221184 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 221184 0x4002116: _dl_start (rtld.c:415)
+          n1: 221184 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 221184 0x0: ???
+            n1: 221184 0x1FFF00035D: ???
+             n0: 221184 0x1FFF000365: ???
+  n0: 28672 in 2 places, all below massif's threshold (1.00%)
+ n3: 5246976 0x4D8B4E2: mmap (mmap64.c:52)
+  n1: 2969600 0x4CC560B: _nl_load_locale (loadlocale.c:225)
+   n1: 2969600 0x4CC5222: _nl_find_locale (findlocale.c:241)
+    n1: 2969600 0x4CC4659: setlocale (setlocale.c:340)
+     n1: 2969600 0x62FC09: _Py_SetLocaleFromEnv (in /usr/bin/python3.7)
+      n1: 2969600 0x5DD079: ??? (in /usr/bin/python3.7)
+       n1: 2969600 0x653837: ??? (in /usr/bin/python3.7)
+        n1: 2969600 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+         n0: 2969600 0x4CBB099: (below main) (libc-start.c:308)
+  n4: 2097152 0x59EBDC: ??? (in /usr/bin/python3.7)
+   n2: 1310720 0x523CFF: ??? (in /usr/bin/python3.7)
+    n2: 786432 0x54BA92: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+     n2: 524288 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+      n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+        n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+         n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+          n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+             n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+              n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+               n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                 n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                  n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                   n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                    n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                     n1: 262144 0x5D838B: ??? (in /usr/bin/python3.7)
+                      n1: 262144 0x5D89F4: PyObject_CallMethod (in /usr/bin/python3.7)
+                       n1: 262144 0x63281D: ??? (in /usr/bin/python3.7)
+                        n1: 262144 0x632B25: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+                         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+                          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+                            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+                             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+         n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+          n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+             n1: 262144 0x5D89B2: PyObject_CallMethod (in /usr/bin/python3.7)
+              n1: 262144 0x630A1A: ??? (in /usr/bin/python3.7)
+               n1: 262144 0x6321D1: _Py_InitializeMainInterpreter (in /usr/bin/python3.7)
+                n1: 262144 0x5DD629: ??? (in /usr/bin/python3.7)
+                 n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+                  n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+                   n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+     n1: 262144 0x5570F3: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x5D524A: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+       n1: 262144 0x5511C1: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+        n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+         n1: 262144 0x557BAB: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D58F5: _PyMethodDef_RawFastCallDict (in /usr/bin/python3.7)
+           n1: 262144 0x5D5AC8: PyCFunction_Call (in /usr/bin/python3.7)
+            n1: 262144 0x551FE9: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+             n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+              n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+               n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                        n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                         n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                          n1: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+                           n1: 262144 0x54EF92: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                            n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+                             n1: 262144 0x557BAB: ??? (in /usr/bin/python3.7)
+                              n0: 262144 0x5D58F5: _PyMethodDef_RawFastCallDict (in /usr/bin/python3.7)
+    n2: 524288 0x59590F: PyTuple_New (in /usr/bin/python3.7)
+     n1: 262144 0x5310D5: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x531521: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+        n1: 262144 0x531F89: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x533BA6: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D50DF: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+           n1: 262144 0x549F3E: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+             n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+              n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+               n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                         n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                          n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                            n1: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+                             n1: 262144 0x54EF92: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                              n0: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+     n1: 262144 0x58BC45: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x647129: _Py_ReadyTypes (in /usr/bin/python3.7)
+       n1: 262144 0x632999: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+        n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+         n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+            n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n1: 524288 0x57DC2D: ??? (in /usr/bin/python3.7)
+    n2: 524288 0x53102E: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x5310FF: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x531521: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+        n1: 262144 0x531521: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x531F89: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x533BA6: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x5D50DF: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+             n1: 262144 0x549F3E: ??? (in /usr/bin/python3.7)
+              n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+               n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+                n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                 n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                  n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                         n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                          n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                           n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                            n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                             n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                              n0: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+     n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x53154D: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+        n1: 262144 0x531F89: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x533BA6: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D50DF: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+           n1: 262144 0x549F3E: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+             n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+              n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+               n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                         n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                          n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                            n1: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+                             n1: 262144 0x54EF92: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                              n0: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+   n1: 262144 0x596482: PyType_GenericAlloc (in /usr/bin/python3.7)
+    n1: 262144 0x4D5D55: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x58AA23: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x59A4ED: PyStructSequence_InitType2 (in /usr/bin/python3.7)
+       n1: 262144 0x62C277: _PySys_BeginInit (in /usr/bin/python3.7)
+        n1: 262144 0x6329D7: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 180224 in 2 places, all below massif's threshold (1.00%)
+ n0: 5214208 0xFFFFFFFFFFFFFFFF: ???
+ n1: 839680 0x4D876C6: brk (brk.c:31)
+  n1: 839680 0x4D877A7: sbrk (sbrk.c:56)
+   n1: 839680 0x4D1D107: __default_morecore (morecore.c:47)
+    n1: 839680 0x4D19364: sysmalloc (malloc.c:2473)
+     n2: 839680 0x4D1A4D7: _int_malloc (malloc.c:4133)
+      n3: 704512 0x4D1B6A1: malloc (malloc.c:3049)
+       n1: 303104 0x5A0FD6: PyObject_Malloc (in /usr/bin/python3.7)
+        n1: 303104 0x5B2E6C: ??? (in /usr/bin/python3.7)
+         n1: 303104 0x5B9E5C: PyDict_SetDefault (in /usr/bin/python3.7)
+          n1: 303104 0x563458: PyUnicode_InternInPlace (in /usr/bin/python3.7)
+           n0: 303104 in 2 places, all below massif's threshold (1.00%)
+       n1: 274432 0x4BECC0: PyParser_New (in /usr/bin/python3.7)
+        n1: 274432 0x4E45C5: ??? (in /usr/bin/python3.7)
+         n1: 274432 0x52CA61: PyParser_ASTFromStringObject (in /usr/bin/python3.7)
+          n1: 274432 0x52CC48: PyRun_StringFlags (in /usr/bin/python3.7)
+           n1: 274432 0x557C69: ??? (in /usr/bin/python3.7)
+            n1: 274432 0x5D5201: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+             n1: 274432 0x5511C1: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+              n0: 274432 in 2 places, all below massif's threshold (1.00%)
+       n0: 126976 in 1 place, below massif's threshold (1.00%)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=39620056
+mem_heap_B=21508096
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=39698269
+mem_heap_B=21471232
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=54024189
+mem_heap_B=21463040
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=54026119
+mem_heap_B=21123072
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=54028104
+mem_heap_B=21118976
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=54030135
+mem_heap_B=21114880
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=54032122
+mem_heap_B=18526208
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=54034109
+mem_heap_B=18522112
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=54036138
+mem_heap_B=18518016
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=54038161
+mem_heap_B=18513920
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 18513920 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 10211328 0x401A752: mmap (mmap64.c:52)
+  n1: 6328320 0x4006237: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 6328320 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 6307840 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 6307840 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 6307840 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 6307840 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 6307840 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 6307840 0x4002116: _dl_start (rtld.c:415)
+          n1: 6307840 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 6307840 0x0: ???
+            n1: 6307840 0x1FFF00035D: ???
+             n0: 6307840 0x1FFF000365: ???
+    n0: 20480 in 1 place, below massif's threshold (1.00%)
+  n1: 3633152 0x400638A: _dl_map_object_from_fd (dl-map-segments.h:94)
+   n2: 3633152 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 3616768 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 3616768 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 3616768 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 3616768 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 3616768 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 3616768 0x4002116: _dl_start (rtld.c:415)
+          n1: 3616768 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 3616768 0x0: ???
+            n1: 3616768 0x1FFF00035D: ???
+             n0: 3616768 0x1FFF000365: ???
+    n0: 16384 in 1 place, below massif's threshold (1.00%)
+  n1: 221184 0x4006B51: _dl_map_object_from_fd (dl-map-segments.h:141)
+   n1: 221184 0x4008ABD: _dl_map_object (dl-load.c:2467)
+    n1: 221184 0x400D2D0: openaux (dl-deps.c:64)
+     n1: 221184 0x40195C9: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 221184 0x400D644: _dl_map_object_deps (dl-deps.c:248)
+       n1: 221184 0x4003ADB: dl_main (rtld.c:1733)
+        n1: 221184 0x40186AE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 221184 0x4002116: _dl_start (rtld.c:415)
+          n1: 221184 0x4001096: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+           n1: 221184 0x0: ???
+            n1: 221184 0x1FFF00035D: ???
+             n0: 221184 0x1FFF000365: ???
+  n0: 28672 in 2 places, all below massif's threshold (1.00%)
+ n0: 5214208 0xFFFFFFFFFFFFFFFF: ???
+ n2: 2293760 0x4D8B4E2: mmap (mmap64.c:52)
+  n4: 2097152 0x59EBDC: ??? (in /usr/bin/python3.7)
+   n2: 1310720 0x523CFF: ??? (in /usr/bin/python3.7)
+    n2: 786432 0x54BA92: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+     n2: 524288 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+      n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+        n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+         n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+          n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+             n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+              n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+               n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                 n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                  n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                   n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                    n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                     n1: 262144 0x5D838B: ??? (in /usr/bin/python3.7)
+                      n1: 262144 0x5D89F4: PyObject_CallMethod (in /usr/bin/python3.7)
+                       n1: 262144 0x63281D: ??? (in /usr/bin/python3.7)
+                        n1: 262144 0x632B25: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+                         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+                          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+                            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+                             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+         n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+          n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+            n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+             n1: 262144 0x5D89B2: PyObject_CallMethod (in /usr/bin/python3.7)
+              n1: 262144 0x630A1A: ??? (in /usr/bin/python3.7)
+               n1: 262144 0x6321D1: _Py_InitializeMainInterpreter (in /usr/bin/python3.7)
+                n1: 262144 0x5DD629: ??? (in /usr/bin/python3.7)
+                 n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+                  n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+                   n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+     n1: 262144 0x5570F3: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x5D524A: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+       n1: 262144 0x5511C1: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+        n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+         n1: 262144 0x557BAB: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D58F5: _PyMethodDef_RawFastCallDict (in /usr/bin/python3.7)
+           n1: 262144 0x5D5AC8: PyCFunction_Call (in /usr/bin/python3.7)
+            n1: 262144 0x551FE9: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+             n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+              n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+               n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                        n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                         n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                          n1: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+                           n1: 262144 0x54EF92: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                            n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+                             n1: 262144 0x557BAB: ??? (in /usr/bin/python3.7)
+                              n0: 262144 0x5D58F5: _PyMethodDef_RawFastCallDict (in /usr/bin/python3.7)
+    n2: 524288 0x59590F: PyTuple_New (in /usr/bin/python3.7)
+     n1: 262144 0x5310D5: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x531521: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+        n1: 262144 0x531F89: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x533BA6: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D50DF: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+           n1: 262144 0x549F3E: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+             n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+              n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+               n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                         n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                          n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                            n1: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+                             n1: 262144 0x54EF92: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                              n0: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+     n1: 262144 0x58BC45: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x647129: _Py_ReadyTypes (in /usr/bin/python3.7)
+       n1: 262144 0x632999: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+        n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+         n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+            n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n1: 524288 0x57DC2D: ??? (in /usr/bin/python3.7)
+    n2: 524288 0x53102E: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x5310FF: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x531521: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+        n1: 262144 0x531521: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x531F89: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x533BA6: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x5D50DF: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+             n1: 262144 0x549F3E: ??? (in /usr/bin/python3.7)
+              n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+               n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+                n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                 n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                  n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                         n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                          n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                           n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                            n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                             n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                              n0: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+     n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+      n1: 262144 0x53154D: ??? (in /usr/bin/python3.7)
+       n1: 262144 0x53120D: ??? (in /usr/bin/python3.7)
+        n1: 262144 0x531F89: ??? (in /usr/bin/python3.7)
+         n1: 262144 0x533BA6: ??? (in /usr/bin/python3.7)
+          n1: 262144 0x5D50DF: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+           n1: 262144 0x549F3E: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x55137A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+             n1: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+              n1: 262144 0x5D6460: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+               n1: 262144 0x549DFE: ??? (in /usr/bin/python3.7)
+                n1: 262144 0x54E17D: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                 n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                  n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                   n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                    n1: 262144 0x54D47A: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                     n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                      n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                       n1: 262144 0x5D60D6: _PyFunction_FastCallKeywords (in /usr/bin/python3.7)
+                        n1: 262144 0x54D2DA: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                         n1: 262144 0x5D74D5: _PyFunction_FastCallDict (in /usr/bin/python3.7)
+                          n1: 262144 0x5D8F42: ??? (in /usr/bin/python3.7)
+                           n1: 262144 0x5D93AB: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.7)
+                            n1: 262144 0x5362A9: PyImport_ImportModuleLevelObject (in /usr/bin/python3.7)
+                             n1: 262144 0x54EF92: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+                              n0: 262144 0x54A8D0: _PyEval_EvalCodeWithName (in /usr/bin/python3.7)
+   n1: 262144 0x596482: PyType_GenericAlloc (in /usr/bin/python3.7)
+    n1: 262144 0x4D5D55: ??? (in /usr/bin/python3.7)
+     n1: 262144 0x58AA23: PyType_Ready (in /usr/bin/python3.7)
+      n1: 262144 0x59A4ED: PyStructSequence_InitType2 (in /usr/bin/python3.7)
+       n1: 262144 0x62C277: _PySys_BeginInit (in /usr/bin/python3.7)
+        n1: 262144 0x6329D7: _Py_InitializeCore_impl (in /usr/bin/python3.7)
+         n1: 262144 0x632C29: _Py_InitializeCore (in /usr/bin/python3.7)
+          n1: 262144 0x5DD59F: ??? (in /usr/bin/python3.7)
+           n1: 262144 0x653837: ??? (in /usr/bin/python3.7)
+            n1: 262144 0x653CFC: _Py_UnixMain (in /usr/bin/python3.7)
+             n0: 262144 0x4CBB099: (below main) (libc-start.c:308)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 196608 in 3 places, all below massif's threshold (1.00%)
+ n1: 794624 0x4D876C6: brk (brk.c:31)
+  n1: 794624 0x4D877A7: sbrk (sbrk.c:56)
+   n1: 794624 0x4D1D107: __default_morecore (morecore.c:47)
+    n1: 794624 0x4D19364: sysmalloc (malloc.c:2473)
+     n2: 794624 0x4D1A4D7: _int_malloc (malloc.c:4133)
+      n3: 659456 0x4D1B6A1: malloc (malloc.c:3049)
+       n1: 303104 0x5A0FD6: PyObject_Malloc (in /usr/bin/python3.7)
+        n1: 303104 0x5B2E6C: ??? (in /usr/bin/python3.7)
+         n1: 303104 0x5B9E5C: PyDict_SetDefault (in /usr/bin/python3.7)
+          n1: 303104 0x563458: PyUnicode_InternInPlace (in /usr/bin/python3.7)
+           n0: 303104 in 2 places, all below massif's threshold (1.00%)
+       n1: 229376 0x4BECC0: PyParser_New (in /usr/bin/python3.7)
+        n1: 229376 0x4E45C5: ??? (in /usr/bin/python3.7)
+         n1: 229376 0x52CA61: PyParser_ASTFromStringObject (in /usr/bin/python3.7)
+          n1: 229376 0x52CC48: PyRun_StringFlags (in /usr/bin/python3.7)
+           n1: 229376 0x557C69: ??? (in /usr/bin/python3.7)
+            n1: 229376 0x5D5201: _PyMethodDef_RawFastCallKeywords (in /usr/bin/python3.7)
+             n1: 229376 0x5511C1: _PyEval_EvalFrameDefault (in /usr/bin/python3.7)
+              n0: 229376 in 2 places, all below massif's threshold (1.00%)
+       n0: 126976 in 1 place, below massif's threshold (1.00%)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=54040167
+mem_heap_B=18509824
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=54042173
+mem_heap_B=18505728
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=54044198
+mem_heap_B=18501632
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=54046223
+mem_heap_B=18497536
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=54048149
+mem_heap_B=18493440
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
