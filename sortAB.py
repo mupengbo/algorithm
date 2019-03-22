@@ -44,6 +44,10 @@ def find_binary_insert_index(seq, n):   # O(logn)
 
 
 def sort(A, B):
+    """
+        给定A， B两数组，都是乱序，排序A数组，保证A数组对应到B数组每一项（a1-->b1, a2-->b2）
+        A元素大于B元素的次数最多
+    """
     A.sort()
     result = []
     for i in range(len(B)):
