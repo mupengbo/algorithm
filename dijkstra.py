@@ -16,9 +16,11 @@ graph = {
 
 
 def init_distance(graph, start_node):
-    distance = {s: 0}
+    distance = {start_node: 0}
     for vertex in graph:
-        if vertex != start_node
+        distance[vertex] = math.inf
+    distance[start_node] = 0
+    return distance
 
 
 def dijkstra(graph, start_node):
@@ -26,22 +28,25 @@ def dijkstra(graph, start_node):
     heapq.heappush(pqueue, (0, start_node))
     seen = set()
     seen.add(start_node)
-    parent = {s: None}
-    distance = {s: 0}
+    parent = {start_node: None}
+    distance = init_distance(graph, start_node) 
 
-    while (len(pqueue) > 0):
+    while pqueue:
         pair = heapq.heappop(pqueue)
-        dist = pair[0]
         vertex = pair[1]
         seen.add(vertex)
-
         nodes = graph[vertex].keys()
         for node in nodes:
             if node not in seen:
-                if dist + graph[vertex][node] < distance[node]:
-                    heapq.heappush(pqueue, (dist + graph[vertex][node], node))
-                    parent[node]
+                heapq.heappush(pqueue, (graph[vertex][node], node))
+                if distance[node] > distance[vertex] + graph[vertex][node]:
+                    parent[node] = vertex
+                    distance[node] = distance[vertex] + graph[vertex][node]
 
+    return parent, distance
 
+    
 if __name__ == '__main__':
-    dijkstra(graph, 'A')
+    parent, distance = dijkstra(graph, 'A')
+    print('parent: ', parent)
+    print('distance: ', distance)
