@@ -16,7 +16,7 @@ graph = {
 
 
 def init_distance(graph, start_node):
-    distance = {start_node: 0}
+    distance = {}
     for vertex in graph:
         distance[vertex] = math.inf
     distance[start_node] = 0
